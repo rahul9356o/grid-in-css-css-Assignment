@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Task 1</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            outline: 0px;
+            box-sizing: border-box;
+
+        }
+        .Container {
+            border: 4px solid black;
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+
+            grid-template-columns:1fr 1fr 1fr;    
+            grid-template-rows: 150px 280px 280px;
+            
+            
+        
+            
+        
+
+        }
+        .Box{
+            margin: 20px;
+            
+
+        }
+        .Box img{
+            height: 100%;
+            width: 100%;
+        }
+        .Box1{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+        .Box3{
+         grid-column-start: 1;
+         grid-column-end: 2;
+         grid-row-start: 2;
+         grid-row-end: 4;
+
+        }
+        .Box5{
+            grid-row-start: 2;
+         grid-row-end: 4;
+         grid-column-start: 3;
+         grid-column-end: 4;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <div class="Container">
+        <div class="Box Box1">
+            <img src="https://images.adsttc.com/media/images/6529/33ad/0e26/f35f/acc5/3440/slideshow/casa-ac-marina-uno-arquitectos_2.jpg?1697199062" alt="">
+        </div>
+        <div class="Box Box2">
+            <img src="https://images.adsttc.com/media/images/6525/a55a/0e26/f301/7cab/641b/slideshow/neutrals-in-interior-design-30-homes-with-an-understated-color-palette_1.jpg?1696965985" alt="">
+        </div>
+        <div class="Box Box3">
+            <img src="https://snoopy.archdaily.com/images/archdaily/catalog/uploads/photo/image/313498/full_Universidad-Rzeszow-5.jpg?width=1024&format=webp" alt=""width="400px" >
+        </div>
+        <div class="Box Box4">
+            <img src="https://images.adsttc.com/media/images/6525/a59f/64e5/0c01/7cc9/e715/slideshow/neutrals-in-interior-design-30-homes-with-an-understated-color-palette_1.jpg?1696966053" alt="" >
+        </div>
+        <div class="Box Box5">
+            <img src="https://images.adsttc.com/media/images/6525/a5a9/64e5/0c01/7cc9/e719/slideshow/neutrals-in-interior-design-30-homes-with-an-understated-color-palette_1.jpg?1696966063" alt="" >
+        </div>
+        
+        <div class="Box Box6">
+            <img src="https://snoopy.archdaily.com/images/archdaily/catalog/uploads/photo/image/317217/full_BA%C3%91O_FLAMED.jpg?width=1024&format=webp" alt="">
+        </div>
+
+    </div>
+</body>
+</html>
